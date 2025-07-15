@@ -1,14 +1,15 @@
 {
   "name": "zetadb",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart":"node databasse.js",
+    "start":"node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "ByteBoss",
   "license": "ISC",
-  "description": "",
+  "description": "Zeta Database with ORM A lightweight, file-based database system with built-in Object-Relational Mapping (ORM) capabilities, implemented entirely in JavaScript.",
   "dependencies": {
     "axios": "^1.10.0",
     "body-parser": "^2.2.0",
