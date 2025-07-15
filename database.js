@@ -80,8 +80,3 @@ class DatabaseServer {
 }
 
 module.exports = { DatabaseServer };
-
-if (require.main === module) {
-  const server = new DatabaseServer();
-  server.start();
-}
