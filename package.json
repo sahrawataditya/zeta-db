@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "prestart":"node databasse.js",
-    "start":"node server.js"
+    "prestart": "node database.js",
+    "start": "node api.js && node server.js"
   },
   "keywords": [],
   "author": "ByteBoss",
